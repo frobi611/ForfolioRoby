@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap Icon Heart -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Akhir Icon Heart -->
+
+    <title> My portfolio | Robi Hariansyah </title>
+  </head>
+  <body id="home">
+    <!-- Awal Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Robi Hariansyah</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#About">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#Gallery">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#Contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <!-- Akhir Navbar-->
+
+
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="img/Robi.jpg" alt=Robi Hariansyah width="200" class="rounded-circle img-thumbnail">
+  <h1 class="display-4"> Robi Hariansyah </h1>
+  <p class="lead"> <u> Mahasiswa | Teknik Informatika </u> </p>
+
+  <!-- Gelombang -->
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,256L21.8,240C43.6,224,87,192,131,160C174.5,128,218,96,262,112C305.5,128,349,192,393,197.3C436.4,203,480,149,524,144C567.3,139,611,181,655,192C698.2,203,742,181,785,170.7C829.1,160,873,160,916,170.7C960,181,1004,203,1047,192C1090.9,181,1135,139,1178,138.7C1221.8,139,1265,181,1309,202.7C1352.7,224,1396,224,1418,224L1440,224L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path></svg>
+  <!-- Akhir Gelombang -->
+
+</section>
+    <!-- Akhir jumbtron -->
+
+
+    <!-- About -->
+    <section id="About">
+    <div class="container">
+
+      <div class="row text-center mb-3">
+
+        <!-- Col Judul -->
+        <div class="col">
+          <h2> <u> About Me </u> </h2>
+        </div>
+        <!-- Akhir Col Judul -->
+
+      </div>
+
+      <div class="row justify-content-center fs-6 text-center">
+
+        <!-- Col 1 -->
+        <div class="col-md-4">
+          <p>Tanpa sebuah kegagalan, kita tak akan menghargai semua proses perjalanan dan sebuah kemenangan.</p>
+        </div>
+        <!-- Akhir Col 1 -->
+
+        <!-- Col 2 -->
+        <div class="col-md-4">
+          <p> Tak mudah untuk menuju kemenangan atau kesuksesan dalam hidup. Ada saja halangan ataupun rintangan yang harus kita jalani, sehingga tak jarang banyak dari kita yang cepat putus asa dan menyerah. </p>
+        </div>
+        <!-- Akhir Col 2 -->
+
+      </div>
+
+    </div> 
+
+    <!-- Gelombang -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,64L80,69.3C160,75,320,85,480,122.7C640,160,800,224,960,234.7C1120,245,1280,203,1360,181.3L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+    <!-- Akhir Gelombang -->
+
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Gallery -->
+    <section id="Gallery">
+      <div class="container">
+      <div class="row text-center mb-4">
+
+        <!-- Col Judul -->
+        <div class="col">
+        <h3> My Gallery </h3> 
+        </div>
+        <!-- Akhir Col Judul -->
+      </div>
+
+      <div class="row justify-content-center">
+
+        <!-- Col 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card" >
+             <img src="img/Aku1.jpg" class="card-img-top" alt="Robi">
+             <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        </div>
+        </div>
+        <!-- Akhir Col 1 -->
+        
+        <!-- Col 2 -->
+         <div class="col-md-4 mb-4">
+          <div class="card" >
+             <img src="img/Aku2.jpg" class="card-img-top" alt="Robi">
+             <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        </div>
+        </div>
+        <!-- Akhir Col 2 -->
+
+        <!-- Col 3 -->
+         <div class="col-md-4 mb-4">
+          <div class="card" >
+             <img src="img/Aku3.jpg" class="card-img-top" alt="Robi">
+             <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        </div>
+        </div>
+        <!-- Akhir Col 3 -->
+
+        <!-- Col 4 -->
+         <div class="col-md-4 mb-4">
+          <div class="card" >
+             <img src="img/Aku4.jpg" class="card-img-top" alt="Robi">
+             <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        </div>
+        </div>
+        <!-- Akhir Col 4 -->
+
+        <!-- Col 5 -->
+         <div class="col-md-4 mb-4">
+          <div class="card" >
+             <img src="img/Aku5.jpg" class="card-img-top" alt="Robi">
+             <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        </div>
+        </div>
+        <!-- Akhir Col 5 -->
+
+      </div>
+      </div>
+
+      <!-- Gelombang -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,224L48,234.7C96,245,192,267,288,245.3C384,224,480,160,576,160C672,160,768,224,864,256C960,288,1056,288,1152,277.3C1248,267,1344,245,1392,234.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      <!-- Akhir Gelombang -->
+
+    </section>
+    <!-- Akhir Gallery -->
+
+    <!-- Contact -->
+    <section id="Contact">
+      <div class="container">
+        <div class="row text-center mb-4">
+
+          <!-- Col judul -->
+          <div class="col">
+            <h2> Contact Me </h2>
+          </div>
+          <!-- Akhir Col Judul -->
+        </div>
+
+        <div class="row justify-content-center">
+          <!-- Col -->
+          <div class="col-md-6">
+            <!-- Form -->
+            <form>
+              <!-- Nama -->
+              <div class="mb-3">
+              <label for="name" class="form-label"> Nama Lengkap </label>
+              <input type="text" class="form-control" id="name" aria-describedby="name">
+              </div>
+              <!-- Akhir Nama -->
+
+              <!-- Email -->
+              <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" aria-describedby="email">
+              </div>
+              <!-- Akhir Email -->
+
+              <!-- Text Area -->
+              <div class="mb-3">
+              <label for="pesan" class="form-label">Pesan</label>
+              <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+              <!-- Akhir Text Area -->
+
+         <!-- Tombol Button -->
+         <button type="submit" class="btn btn-primary">Submit</button>
+         <!-- Akhir Tombol Button -->
+
+         </form>
+          <!-- Akhir Form -->
+            
+          </div>
+          <!-- Akhir Col -->
+
+        </div>
+      </div>
+
+      <!-- Gelombang -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,256L40,240C80,224,160,192,240,197.3C320,203,400,245,480,240C560,235,640,181,720,176C800,171,880,213,960,218.7C1040,224,1120,192,1200,192C1280,192,1360,224,1400,240L1440,256L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>      
+      <!-- Akhir Gelombang -->
+
+    </section>
+    <!-- Akhir Contact -->
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center pb-5">
+      <p> Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/robi_hariansyah/" class="text-white fw-bold"> Robi Hariasyah </a></p>
+    </footer>
+    <!-- Akhir Footer -->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
